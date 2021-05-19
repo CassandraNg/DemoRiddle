@@ -17,6 +17,6 @@ public class AnswerActivity2 extends AppCompatActivity {
         tvAnswer = findViewById(R.id.textView2);
         Intent intentReceived = getIntent();
         String QuestionsSelected = intentReceived.getStringExtra("Question");
-        tvAnswer.setText(QuestionsSelected + " answer is: Gone");
+        //tvAnswer.setText(QuestionsSelected + " answer is: Gone");
     }
 }
